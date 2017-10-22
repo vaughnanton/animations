@@ -1,3 +1,3 @@
 This repo will house some of my CSS/JS animations and effects.
 
-[Click here to view the Julia Fractal]()
+[Click here to view the Julia Fractal](https://jsfiddle.net/6nqaLkv7/)
