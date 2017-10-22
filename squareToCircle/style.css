@@ -1,0 +1,45 @@
+body {
+  background-color: lightgrey;
+}
+
+div {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+
+  background-color: coral;
+  animation: square-to-circle 2s 1s infinite cubic-bezier(1.000, -0.095, 0.000, 0.680) alternate;
+}
+
+@keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+    background:#cce0ff;
+    transform:rotate(0deg);
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+    background:#99c2ff;
+    transform:rotate(45deg);
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+    background:#4d94ff;
+    transform:rotate(90deg);
+  }
+  75%  {
+    border-radius:50% 50% 50% 0;
+    background:#0052cc;
+    transform:rotate(135deg);
+  }
+  100% {
+    border-radius:50%;
+    background:#002966;
+    transform:rotate(180deg);
+  }
+}
